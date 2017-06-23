@@ -1,4 +1,6 @@
 all:
+	@echo "make restore-nodemcu     : write LUA runtime"
+	@echo "make restore-micropython : write PYthon runtime"
 
 prepare:
 	apt install gperf bison libtool flex texinfo help2man gawk libpython-dev libpython3-dev python-serial
