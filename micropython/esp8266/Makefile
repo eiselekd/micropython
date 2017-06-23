@@ -173,7 +173,7 @@ deploy: $(BUILD)/firmware-combined.bin
 
 erase:
 	$(ECHO) "Erase flash"
-	$(Q)esptool.py --port $(PORT) --baud $(BAUD) erase_flash
+	esptool.py --port $(PORT) --baud $(BAUD) erase_flash
 
 reset:
 	echo -e "\r\nimport machine; machine.reset()\r\n" >$(PORT)

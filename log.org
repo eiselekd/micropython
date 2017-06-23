@@ -1,0 +1,7 @@
+* Setup lua-mode wifi
+** links 
+[1] https://smartarduino.gitbooks.io/development-of-nodemcu/content/subsection_42_wifi_mode.html
+
+* links
+
+[1] https://smartarduino.gitbooks.io/development-of-nodemcu/content/subsection_42_wifi_mode.html
